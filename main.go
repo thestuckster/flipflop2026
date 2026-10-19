@@ -28,5 +28,6 @@ func main() {
 
 	fmt.Println("\nPart Four")
 	puzzleFour.PartOne("./puzzleFour/input.txt", 400)
+	puzzleFour.PartTwo("./puzzleFour/input.txt")
 
 }
