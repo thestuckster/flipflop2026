@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 
+	"stephenstucky.quest/flipflop/puzzleFour"
 	"stephenstucky.quest/flipflop/puzzleOne"
 	"stephenstucky.quest/flipflop/puzzleThree"
 	"stephenstucky.quest/flipflop/puzzleTwo"
@@ -24,5 +25,8 @@ func main() {
 	puzzleThree.PartOne("./puzzleThree/input.txt")
 	puzzleThree.PartTwo("./puzzleThree/input.txt")
 	puzzleThree.PartThree("./puzzleThree/input.txt")
+
+	fmt.Println("\nPart Four")
+	puzzleFour.PartOne("./puzzleFour/input.txt", 400)
 
 }
