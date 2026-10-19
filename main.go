@@ -12,9 +12,9 @@ import (
 func main() {
 
 	fmt.Println("Part One")
-	puzzleOne.PartOne("./puzzleOne/p1-1.txt")
-	puzzleOne.PartTwo("./puzzleOne/p1-2.txt")
-	puzzleOne.PartThree("./puzzleOne/p1-3.txt")
+	puzzleOne.PartOne("./puzzleOne/input.txt")
+	puzzleOne.PartTwo("./puzzleOne/input.txt")
+	puzzleOne.PartThree("./puzzleOne/input.txt")
 
 	fmt.Println("\nPart Two")
 	puzzleTwo.PartOne("./puzzleTwo/input.txt")
